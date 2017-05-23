@@ -64,6 +64,6 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('default', ['less:dev', 'watch']);
-    grunt.registerTask('build', ['less:prod']);
+    grunt.registerTask('build', ['less:dev','less:prod']);
 
 };
