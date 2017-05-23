@@ -1,12 +1,21 @@
-body{
-  font-size:12px;
-}
+@charset "utf-8";
 
-a{
-  color:inherit;
-  text-decoration: none;
+@import "mixins/mixin.less";
 
-  &:hover{
-    color:inherit;
-  }
-}
+/* 常用参数设置 */
+@import "variable.less";
+
+/* Base */
+@import "base/index";
+
+/* Components */
+@import "components/index";
+
+/* Modules */
+@import "modules/index";
+
+/* Widgets */
+@import "widgets/index";
+
+/* Themes */
+@import "themes/index";

@@ -1,0 +1,32 @@
+/* layout */
+
+.contents{
+  position: relative;
+  margin:0 auto;
+  width:@width-contents;
+}
+
+#header,#main,#footer{
+  position: relative;
+}
+
+
+
+#column-left {
+	float: left;
+	width: 190px;
+}
+#column-right {
+	float: right;
+	width: 190px;
+}
+#content {
+	min-height: 400px;
+	margin-bottom: 25px;
+}
+#column-left + #column-right + #content, #column-left + #content {
+	margin-left: 200px;
+}
+#column-right + #content {
+	margin-right: 200px;
+}

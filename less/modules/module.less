@@ -1,0 +1,39 @@
+.box { 
+	margin-bottom:@baseLineHeight;
+
+	.top{ 
+		border:1px solid @baseBorder; 
+		.border-radius(5px 5px 0 0);
+		padding:@paddingLarge;  
+
+		h3{ 
+			color:@textColor; 
+			font-size:1.1em; 
+			height:@baseLineHeight; 
+			line-height:@baseLineHeight;
+			/*
+			background: url(graphic/heading-bg.png) center 0 no-repeat; 
+			*/
+
+			span{
+				/* FIR */
+				display:block;
+			}
+		}
+
+		.more{ 
+			float:right; 
+			font-weight:normal;
+			margin-right:10px; 
+			height:@baseLineHeight; 
+			line-height:@baseLineHeight;
+		}
+	}
+
+	.middle,.content{
+		border:1px solid @baseBorder; 
+		border-top:none; 
+		padding:10px;
+	}
+}
+

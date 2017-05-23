@@ -1,0 +1,150 @@
+/* 文章列表 */
+
+.article-list{
+	.lists{
+		 padding-left: 0px; padding-right: 0px;
+
+		.item{
+			background: url(graphic/title-ico.png) left center no-repeat;
+			line-height: 45px;
+			height: 45px;
+			overflow:hidden;
+			border-bottom: 1px #ccc dashed;
+
+			a { display:inline-block; }
+
+			h3{ font-weight: normal; font-size: 1em; }
+
+			.publish-date{ float:right; color: #999; }
+
+			&:last-child{
+				border-bottom:0;
+			}
+		}
+
+		.item-summary{
+			border-bottom: 1px #ccc dashed;
+			padding:10px 0px 20px;
+
+			overflow:hidden;
+			
+			.thumb{
+				float:left; 
+				margin-right:10px; 
+
+				img{border:3px solid #ddd;}
+			}
+
+			.summary{
+				overflow:hidden; 
+				color: #888;
+			}
+		}
+	}
+
+	.grids{
+		.item-thumb{
+			text-align:center; line-height:1.5em; margin-bottom:1.5em; 
+
+			padding:3px 5px; 
+
+			a{ display:block; }
+
+			.title{ display:block; margin-top:0.5em; margin-bottom:1em; }
+
+			img{border:1px solid #ccc;}
+		}
+	}
+}
+
+
+
+
+.list .item{ }
+
+.list .item-thumbnail{}
+
+.list-article .item-thumbnail{}
+
+.list-product .item{ }
+
+.list-download .item{ border-bottom: 1px #ccc dashed; height:30px; line-height: 30px; }
+.list-download .item .date{ float:right; width:80px; }
+.list-download .item .size{ float:right; width:100px; }
+
+.article-list { padding-left: 0px; padding-right: 0px; }
+
+.article-list  .vlist li {
+	background: url(graphic/title-ico.png) left center no-repeat;
+	text-indent: 8px;
+	line-height: 45px;
+	height: 45px;
+	overflow:hidden;
+	border-bottom: 1px #ccc dashed;
+
+	a { display:inline-block; font-size: 14px; }
+}
+
+
+.article-list .vlist li .date,.article-summary-list .vlist li .date{ float:right; color: #999; }
+
+.article-summary-list li{
+	border-bottom: 1px #ccc dashed;
+	padding:20px 0px 20px;
+}
+.article-summary-list li img{border:3px solid #ddd;}
+
+.article-summary-list .item{
+	overflow:hidden;
+	
+	.thumb{
+		float:left; 
+		margin-right:10px; 
+	}
+
+	.summary{
+		overflow:hidden; 
+		color: #888;
+	}
+} 
+
+/* 案例介绍页面样式 */
+.article-thumblist li{ float:left; width:33.3333%; text-align:center; line-height:1.5em; margin-bottom:1.5em;  }
+.article-thumblist li a{ display:block; }
+.article-thumblist li .title{ display:block; margin-top:0.5em; margin-bottom:1em; }
+.article-thumblist li img{border:1px solid #ccc;}
+
+
+/* 文章详细页 */
+#content .article .info{margin-bottom: 0px;line-height: 14px;}
+#content .section .info .pub_date{
+	color: #999;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+}
+
+#content article p{line-height: 200%; font-size: 14px;}
+
+#review .item{
+	padding: 10px;
+	overflow: auto;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+
+	b {
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		margin-right: 10px;
+	}
+
+	.date {
+		width: 80px;
+		float: right;
+	}
+
+	.b1{  background:#F7B26F; padding: 15px;}
+
+	.b2{  background:#F59636; padding: 20px;}
+}

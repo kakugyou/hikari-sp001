@@ -1,0 +1,224 @@
+body {
+	color: @textColor;
+	font-family: @sansFontFamily;
+	background: #fff;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5em;
+	min-width:960px;
+	-webkit-font-smoothing: antialiased;
+}
+
+body.cn{
+	font-family: @baseFontFamily;
+	font-size:14px;
+	font-size: 0.875rem;
+}
+
+body.develop:hover{
+	background: url(graphic/grid-18.png)  center 0 repeat-y #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+	 font-family:inherit;
+}
+
+h1 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 2em;
+  letter-spacing: -0.025em;
+  text-shadow: 0 1px 1px #fff;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 1.2em 0 0.4em;
+ 
+}
+
+h3 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin: 0.6em 0 0.25em;
+}
+
+h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.25;
+  margin: 1em 0 0;
+}
+
+h5,h6{ 
+	font-size:12px; 
+	font-size: 0.75rem;
+}
+
+
+a, a:visited{
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color:#e47a00;
+	text-decoration: none;
+}
+
+/* 提示信息 */
+.success, .warning, .attention, .information {
+	padding: 10px 10px 10px 33px;
+	margin-bottom: 15px;
+	color: #555555;
+}
+.success {
+	background: #EAF7D9 url('../image/success.png') 10px center no-repeat;
+	border: 1px solid #BBDF8D;
+}
+.warning {
+	background: #FFD1D1 url('../image/warning.png') 10px center no-repeat;
+	border: 1px solid #F8ACAC;
+}
+.attention {
+	background: #FFF5CC url('../image/attention.png') 10px center no-repeat;
+	border: 1px solid #F2DD8C;
+}
+.information {
+	background: #E8F6FF url('../image/information.png') 10px center no-repeat;
+	border: 1px solid #B8E2FB;
+}
+.success .close, .warning .close, .attention .close, .information .close {
+	float: right;
+	padding-top: 4px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+.required {
+	color: #FF0000;
+	font-weight: bold;
+}
+.error {
+	display: block;
+	color: #FF0000;
+}
+.help {
+	color: #999;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	display: block;
+}
+
+#notification {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index:100;
+
+	.close{padding:5px; display:inline-block;}
+}
+
+
+.cn article p,.cn .article p{
+	font-size: 14px; 
+	line-height: 1.5em; 
+	text-indent: 2em; 
+}
+
+/* 网站公共主结构样式 */
+.page_margins{ max-width: 1400px; margin:0 auto; }
+
+#header,#main,#footer{ position: relative; }
+
+.wrap,.contents {
+  width: @contentsWidth;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+/*-------------------------------------- 网站排版------------------------------------------ */
+
+#content{
+	section,.section{
+		padding:0 20px;
+		border: 1px solid #ddd;
+
+		.top{
+			h1{
+				font-size: 18px; 
+
+				border-bottom: 1px solid #d8d8d8;
+			}
+		}
+
+		.content{
+			min-height: 300px;
+			padding:10px 0;
+		}
+	}
+	
+}
+
+
+
+/*#content{  background: #f9f9f9;}
+#content .top{padding: 0px 20px;}
+#content .content{padding: 20px;}*/
+
+
+
+
+/* 属性展示效果 */
+.attribute {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.attribute thead td, .attribute thead tr td:first-child {
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	background: #F7F7F7;
+	text-align: left;
+}
+.attribute tr td:first-child {
+	color: #000000;
+	font-weight: bold;
+	text-align: right;
+	width: 20%;
+}
+.attribute td {
+	padding: 7px;
+	color: #4D4D4D;
+	text-align: center;
+	vertical-align: top;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+/* Sitemap*/
+.sitemap-info h3{ font-size:14px; }
+.sitemap-info ul{ margin-left:2em; }
+.sitemap-info ul.items{
+	list-style: inside square;
+	padding: 0;	
+}
+
+.sitemap-info .c50l{ width:50%; float:left;}
+.sitemap-info .c50r{ width:50%; float:right;}
+
+.sitemap-info{padding: 20px;}

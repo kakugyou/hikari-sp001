@@ -1,0 +1,184 @@
+.button {
+    -moz-transition: all 0.218s ease 0s;
+    -moz-user-select: none;
+    background-color: @dominantColor;
+    border: 1px solid @dominantColor;
+    background-image: -moz-linear-gradient(center top , @dominantColor, @dominantColor);
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    cursor: default;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "microsoft yahei";
+    height: 35px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    margin-right: 5px;
+    min-width: 140px;
+    padding: 0 8px;
+    text-align: center;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+button.button, input.button[type="submit"] {
+    height: 29px;
+    line-height: 29px;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+.button:hover {
+   -moz-transition: all 0s ease 0s;
+
+    background-image: -moz-linear-gradient(center top , #F8F8F8, #F1F1F1);
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    text-decoration: none;
+}
+.button:active {
+    background-color: #F6F6F6;
+    background-image: -moz-linear-gradient(center top , #F6F6F6, #F1F1F1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+.button:visited {
+    color: #666666;
+}
+.button-submit {
+    background-color: #97C03D;
+    background-image: -moz-linear-gradient(center top , #97C03D, #4787ED);
+    border: 1px solid #97C03D;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+.button-submit:hover {
+	background-image: -moz-linear-gradient(center top , #97C03D, #357AE8);
+    border: 1px solid #2F5BB7;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.button-submit:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+.button-share {
+    background-color: #3D9400;
+    background-image: -moz-linear-gradient(center top , #3D9400, #398A00);
+    border: 1px solid #29691D;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+.button-share:hover {
+    background-color: #368200;
+    background-image: -moz-linear-gradient(center top , #3D9400, #368200);
+    border: 1px solid #2D6200;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.button-share:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+.button-red {
+    background-color: #D14836;
+    background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+.button-red:hover {
+    background-color: #C53727;
+    background-image: -moz-linear-gradient(center top , #DD4B39, #C53727);
+    border: 1px solid #B0281A;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.button-red:active {
+    background-color: #B0281A;
+    background-image: -moz-linear-gradient(center top , #DD4B39, #B0281A);
+    border: 1px solid #992A1B;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+.button-white {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DCDCDC;
+    color: #666666;
+}
+.button-white:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+.button-white:active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+.button-red:visited, .button-share:visited, .button-submit:visited {
+    color: #FFFFFF;
+}
+.button-submit:focus, .button-share:focus, .button-red:focus {
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+}
+.button-share:focus {
+    border-color: #29691D;
+}
+.button-red:focus {
+    border-color: #D14836;
+}
+.button-submit:focus:hover, .button-share:focus:hover, .button-red:focus:hover {
+    box-shadow: 0 0 0 1px #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.button img {
+    display: inline-block;
+    margin: -3px 0 0;
+    opacity: 0.55;
+    vertical-align: middle;
+}
+.button:hover img {
+    opacity: 0.72;
+}
+.button:active img {
+    opacity: 1;
+}
+
+a.button {
+	display: inline-block;
+	padding-left: 6px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.button span {
+	color: #FFFFFF;
+    font-family: "microsoft yahei";
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+a.button span:hover {
+	color: #333;
+}
+
+.btn-wish{
+    background: url(graphic/btn-wish.png) no-repeat;
+    width: 150px;
+    height: 45px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.btn-wish:hover{background: url(graphic/btn-wish-on.png) no-repeat}
+.btn-buy{
+    background: url(graphic/btn-buy.png) no-repeat;
+    width: 150px;
+    height: 45px;
+    display: block;
+    float: left;
+}
+.btn-buy:hover{background: url(graphic/btn-buy-on.png) no-repeat;}
+.btn-wish span, .btn-buy span{display: none;}
+
+.buttons {padding: 0px 20px 20px;}
