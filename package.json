@@ -10,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/kakugyou/hikari-sp001.git"
   },
-  "author": "",
+  "author": "kakugyou",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kakugyou/hikari-sp001/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-less": "~0.11",
+    "grunt-contrib-watch": "~0.6",
+    "load-grunt-tasks": "~0.2"
+  },
+  "dependencies": {
   },
   "homepage": "https://github.com/kakugyou/hikari-sp001#readme"
 }
