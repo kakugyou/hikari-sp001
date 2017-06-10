@@ -16,12 +16,12 @@
     "url": "https://github.com/kakugyou/hikari-sp001/issues"
   },
   "devDependencies": {
+    "cdreami-common-css": "github:kakugyou/cdreami-common-css",
     "grunt": "~0.4",
     "grunt-contrib-less": "~0.11",
     "grunt-contrib-watch": "~0.6",
     "load-grunt-tasks": "~0.2"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "homepage": "https://github.com/kakugyou/hikari-sp001#readme"
 }
